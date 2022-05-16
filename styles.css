@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+    font-family:sans-serif;
+}
+body{
+    max-width: 1200px;
+}
+#imgPrincipal{
+    display: flex;
+}
+#imgPrincipal >img{
+    width: 1200px;
+    height: 500px;
+}
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: solid 0.5px whitesmoke;
+    background-color: whitesmoke;
+
+}
+#menu{
+    display: flex;
+}
+#menu li{
+    margin-left: 10px;
+}
+#houseSale{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+   /* justify-items: center;*/
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+#houseSale >span{
+   
+    flex: 1 1 200px;
+    max-width: 500px;
+    background-color:whitesmoke;
+    font-size: 10px;
+   
+    
+}
+.infHouse{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 10px;
+}
+#rectangle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+}
+#rectangle >img{
+    max-width: 1200px;
+    padding: 10px;
+    height: 100px;
+}
+h1{
+    color:darkgrey;
+    font: bold;
+    text-align: center;
+}
